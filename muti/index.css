@@ -1,0 +1,37 @@
+.jumbotron {
+  color: white;
+  position: relative;
+  height: 400px;
+}
+
+#jumbotron {
+  background: url(http://www.unsplash.it/500/300) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#jumbotron-content {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(39, 39, 39, 0.6);
+  margin: 0;
+}
+
+[id^="jumbotron-text-"] {
+  margin: 0;
+}
+
+.jumbotron-bottom {
+  height:100px;
+}
+
+.jumbotron .btn {
+  margin: 35px 0px;
+}
+
+.jumbotron h2 {
+  margin: 50px 15px;
+}
